@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0}
+body{color:#666;font:12px "SimSun","宋体","Arial Narrow",HELVETICA;background:#fff;}
+a{text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle;display:inline-block;}
+input{border:none;border:1px solid #bbbbbb;}
+/*重置样式*/
+
+.header{width:950px;height:60px;margin:auto;padding:15px 0;}
+.logo{float:left;}
+.hotlinebox{float:right;margin-top:15px;width:254px;height:39px;}
+.hotline{background:url(../images/hotline2.gif) no-repeat;height:24px;}
+._zh{background:url(../images/hotline2.gif) no-repeat 0 -24px;width:65px;height:15px;display:block;float:left;}
+._th{background:url(../images/hotline2.gif) no-repeat -77px -24px;width:100px;height:15px;display:block;float:left;margin-left:12px;}
+._by{background:url(../images/hotline2.gif) no-repeat -185px -24px;width:69px;height:15px;display:block;float:left;margin-left:8px;}
+/*子网页头部*/
+
+.footer{width:950px;height:42px;margin:auto;padding:15px 0;text-align: center;}
+.footer p {display: block;line-height: 180%}

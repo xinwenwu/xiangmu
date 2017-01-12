@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>淘鞋网</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lib/jquery-1.12.4.js"></script>
+    <script src="js/lib/jquery.cycle.all.min.js"></script>
+    <script src="js/app/index.js"></script>
+</head>
+<body>
+
+<div id="box">
+    <ul>
+        <li>
+            <a class="num" href="javascript:;">1F</a>
+            <a class="word" href="javascript:;">运动</a>
+        </li>
+        <li>
+            <a class="num" href="javascript:;">2F</a>
+            <a class="word" href="javascript:;">女鞋</a>
+        </li>
+        <li>
+            <a class="num" href="javascript:;">3F</a>
+            <a class="word" href="javascript:;">男鞋</a>
+        </li>
+        <li>
+            <a class="num" href="javascript:;">4F</a>
+            <a class="word" href="javascript:;">户外</a>
+        </li>
+        <li class="last">
+            <a class="num" href="javascript:;">5F</a>
+            <a class="word" href="javascript:;">童鞋</a>
+        </li>
+    </ul>
+</div>
+
+
+<div class="side">
+    <div class="a1"></div>
+    <ul>
+        <li class="list1" id="list1">
+            <a href=""><img src="images/t2a.png" alt=""></a>
+            <div class="list-nav">
+                <ul>
+                    <li>用户</li>
+                </ul>
+            </div>
+        </li>
+        <li class="list1" id="list2">
+            <a href=""><img src="images/t1a.png" alt=""></a>
+            <div class="list-nav1">
+                <ul>
+                    <li>购物车</li>
+                </ul>
+            </div>
+        </li>
+        <li class="list1" id="list3">
+            <a href=""><img src="images/t3a.png" alt=""></a>
+            <div class="list-nav2">
+                <ul>
+                    <li>客服</li>
+                </ul>
+            </div>
+        </li>
+        <div class="a2"></div>
+        <li class="list1" id="list4">
+            <a href=""><img src="images/t7a.png" alt=""></a>
+            <div class="list-nav4 sp">
+                <ul>
+                    <li>400-680-5888</li>
+                </ul>
+            </div>
+        </li>
+        <li class="list1" id="list5">
+            <a href=""><img src="images/t6a.png" alt=""></a>
+            <div class="list-nav5 sq">
+                <ul>
+                    <li><img src="images/sideer.jpg" alt=""></li>
+                </ul>
+            </div>
+        </li>
+        <li class="list1" id="list6">
+            <a href=""><img src="images/12358.png" alt=""></a>
+            <div class="list-nav6 sw">
+                <ul>
+                    <li><img src="images/123581.jpg" alt=""></li>
+                </ul>
+            </div>
+        </li>
+        <li class="list1" id="list7">
+            <a href="javascript:;" id="top"><img src="images/t8a.png" alt=""></a>
+            <div class="list-nav7 sd">
+                <ul>
+                    <li>回到顶部</li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="topbar">
+    <div class="top">
+        <div class="top-left">
+            <a href="" class="mobile" id="mobile">手机淘鞋</a> | 关注：
+            <a href="" class="weixin" id="weixin"></a>
+            <a href="" class="weibo"></a>
+            <a href="" class="ttweibo"></a>
+        </div>
+        <div class="topbarpop" id="topbarpop">
+            <ul>
+                <li><a href="">iphone<br/>客户端</a></li>
+                <li><a href="">Android<br/>客户端</a></li>
+            </ul>
+        </div>
+        <div class="top-right">
+            <ul>
+                <li class="first">
+                    <span>您好，欢迎来到淘鞋网！</span>
+                    <a href="" class="logi">登录</a> <em>|</em> <a href="" class="reg">注册</a>
+                </li>
+                <li><a href="">我的订单</a></li>
+                <li class="menu" id="allm">
+                    <dl>
+                        <dt><a href="" id="menu">我的淘鞋</a> <img src="images/dropdown.gif" alt=""></dt>
+                        <dd id="subm">
+                            <ul>
+                                <li><a href="">我的评价</a></li>
+                                <li><a href="">我的收藏</a></li>
+                                <li><a href="">我的优惠券</a></li>
+                                <li><a href="">收货地址</a></li>
+                                <li><a href="">修改密码</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </li>
+                <li class="menu" id="mallm">
+                    <dl>
+                        <dt><a href="" id="myenu">我的淘鞋</a> <img src="images/dropdown.gif" alt=""></dt>
+                        <dd id="msubm">
+                            <ul>
+                                <li><a href="">我的评价</a></li>
+                                <li><a href="">我的收藏</a></li>
+                                <li><a href="">我的优惠券</a></li>
+                                <li><a href="">收货地址</a></li>
+                                <li><a href="">修改密码</a></li>
+                            </ul>
+                        </dd>
+                      </dl>
+                </li>
+                <li>服务热线：<span class="hotline">400-680-5888</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="header">
+    <div class="header-skin">
+        <h1><img src="images/logo.jpg" alt=""></h1>
+        <div class="deliver"><img src="images/devider.gif" alt=""></div>
+        <div class="taoxie"><img src="images/taoxiecom.gif" alt=""><span></span></div>
+        <div class="checkbox">
+            <div class="checktop">
+                <input class="tex" type="text" placeholder="特步跑步鞋">
+                <input class="sub" type="submit" value=""></div>
+            <div class="checkbo">
+                <a href="" class="hotkey_1">艾弗森</a>
+                <a href="" class="hotkey_2">乔丹清仓</a>
+                <a href="" class="hotkey_3">春季新品</a>
+                <a href="" class="hotkey_4">板鞋</a>
+                <a href="" class="hotkey_5">跑步鞋</a>
+                <a href="" class="hotkey_6">篮球鞋</a>
+            </div>
+        </div>
+        <a href="" class="cart">购物车 <em>0</em> 件商品</a>
+    </div>
+</div>
+<div class="channel-skin" id="nav">
+    <ul class="menu">
+        <li class="all-lis"><span>所有商品分类</span></li>
+        <li class="home"><a href=""><i></i>首页</a></li>
+        <li><a href="">运动鞋</a></li>
+        <li><a href="">男鞋</a></li>
+        <li><a href="">女鞋</a></li>
+        <li><a href="">童鞋</a></li>
+        <li><a href="">特卖会</a></li>
+        <li><a href="">HI购</a></li>
+        <li><a href="">鞋定制</a></li>
+        <li><a href="">品牌馆</a></li>
+    </ul>
+</div>
+
+<div class="slide-skin">
+    <ul class="slide-box" id="slide-box">
+        <li class="hide"><a href=""><img src="images/1.jpg" alt="" width="100%" height="430"></a></li>
+        <li class="hide"><a href=""><img src="images/2.jpg" alt="" width="100%" height="430"></a></li>
+        <li class="hide"><a href=""><img src="images/3.jpg" alt="" width="100%" height="430"></a></li>
+        <li class="hide"><a href=""><img src="images/4.jpg" alt="" width="100%" height="430"></a></li>
+        <li class="hide"><a href=""><img src="images/5.jpg" alt="" width="100%" height="430"></a></li>
+    </ul>
+    <div class="cation">
+        <dl>
+            <dt><a href="">运动鞋</a></dt>
+            <dd>
+                <a href="">跑步鞋</a>
+                <a href="">板鞋</a>
+                <a href="">篮球鞋</a>
+                <a href="">夏季新款</a>
+                <a href="">网球鞋</a>
+                <a href="">耐克</a>
+                <a href="">特 步</a>
+                <a href="">乔丹特卖</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt><a href="">女鞋</a></dt>
+            <dd>
+                <a href="">单鞋</a>
+                <a href="">马丁靴</a>
+                <a href="">高跟鞋</a>
+                <a href="">夏季新品</a>
+                <a href="">短靴</a>
+                <a href="">平底鞋</a>
+                <a href="">乐福鞋</a>
+                <a href="">帆布鞋</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt><a href="">男鞋</a></dt>
+            <dd>
+                <a href="">休闲鞋</a>
+                <a href="">皮鞋</a>
+                <a href="">豆豆鞋</a>
+                <a href="">夏季男鞋</a>
+                <a href="">系带鞋</a>
+                <a href="">靴子</a>
+                <a href="">马丁靴</a>
+                <a href="">商务正装</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt><a href="">户外鞋</a></dt>
+            <dd>
+                <a href="">徒步鞋</a>
+                <a href="">户外休闲鞋</a>
+                <a href="">登山鞋</a><br/>
+                <a href="">越野跑鞋</a>
+                <a href="">溯溪鞋</a>
+                <a href="">骆驼</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt><a href="">童鞋</a></dt>
+            <dd>
+                <a href="">凯蒂猫</a>
+                <a href="">迪士尼</a>
+                <a href="">独家龙</a>
+                <a href="">童凉鞋</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt><a href="">尺码 <em>您可以通过下方找到对应尺码</em></a></dt>
+            <dd>
+                <a href="">35</a>
+                <a href="">36</a>
+                <a href="">37</a>
+                <a href="">38</a>
+                <a href="">39</a>
+                <a href="">40</a>
+                <a href="">41</a>
+                <a href="">42</a>
+                <a href="">43</a>
+                <a href="">44</a>
+            </dd>
+        </dl>
+    </div>
+    <div class="pro"><img src="images/promi.png" alt=""></div>
+    <div class="lbs"><img src="images/lunbo.jpg" alt=""></div>
+</div>
+<div class="controls-center">
+    <div id="slider_controls">
+        <ul id="slider_nav">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+        </ul>
+    </div>
+</div>
+<div class="bodyskin">
+    <div class="smalllogo">
+        <a href="javascript:;" id="prev" class="prev"></a>
+        <div class="clip">
+            <div id="clipscroll" class="container">
+                <ul>
+                    <li><a href=""><i></i>耐克</a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                </ul>
+                <ul>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                    <li><a href=""><i></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="javascript:;" class="next" id="next"></a>
+    </div>
+    <div class="row">
+        <div class="grad">
+            <div class="tab-box">
+                <div class="tabnav">
+                    <ul id="topnav">
+                        <li class="hide-1"><a href="">限时抢购</a></li>
+                        <li><a href="">HI购</a></li>
+                        <li><a href="">品牌特卖</a></li>
+                        <li><a href="">专柜同步上新</a></li>
+                    </ul>
+                </div>
+                <div class="tabcontent">
+                    <div class="hide_s" id="xuan">
+                        <div class="active">
+                        <ul class="list-1">
+                            <li>
+                                <div class="timer" id="timer">剩余 <em></em> 小时 <em></em> 分 <em></em> 秒</div>
+                                <div class="pic">
+                                    <div class="streight">直降<br/><em>190</em><sup>元</sup></div>
+                                    <a href="" class="pht"><img src="images/6190073676026.jpg_fix_160x160.jpg" alt=""></a>
+                                </div>
+                                <div class="name">皮皮诺 男款低帮素面帆布鞋 <em>G1-1PR/D1 TXF DM</em></div>
+                                <div class="price">抢购价：<em>￥19.00</em></div>
+                            </li>
+                            <li>
+                                <div class="timer2">剩余 <em></em> 小时 <em></em> 分 <em></em> 秒</div>
+                                <div class="pic">
+                                    <div class="streight">直降<br/><em>210</em><sup>元</sup></div>
+                                    <a href="" class="pht"><img src="images/20158063216552.jpg_fix_160x160.jpg" alt=""></a>
+                                </div>
+                                <div class="name">VOIT沃特真品百搭女子春夏新款耐磨运动休闲板鞋 <em>13226</em></div>
+                                <div class="price">抢购价：<em>￥39.00</em></div>
+                            </li>
+                            <li>
+                                <div class="timer3">剩余 <em></em> 小时 <em></em> 分 <em></em> 秒</div>
+                                <div class="pic">
+                                    <div class="streight">直降<br/><em>160</em><sup>元</sup></div>
+                                    <a href="" class="pht"><img src="images/20156348066625.jpg_fix_160x160.jpg" alt=""></a>
+                                </div>
+                                <div class="name">FLYKE飞克专柜真品特价男子潮流时尚运动休闲板鞋<em>09111</em></div>
+                                <div class="price">抢购价：<em>￥19.00</em></div>
+                            </li>
+                            <li>
+                                <div class="timer4">剩余 <em></em> 小时 <em></em> 分 <em></em> 秒</div>
+                                <div class="pic">
+                                    <div class="streight">直降<br/><em>100</em><sup>元</sup></div>
+                                    <a href="" class="pht"><img src="images/14953673599148.jpg_fix_180x180.jpg" alt=""></a>
+                                </div>
+                                <div class="name">【清仓】FLYKE飞克专柜真品特价女子户外时尚帆布休闲</div>
+                                <div class="price">抢购价：<em>￥19.00</em></div>
+                            </li>
+                        </ul>
+                        </div>
+                        <div class="active">
+                        <ul class="list-2">
+                            <li>
+                                <div class="pic"><a href=""><img src="images/5311905313586.jpg_fix_180x180.jpg" alt=""></a></div>
+                                <div class="name">贝踏男鞋春夏跑步鞋男轻便休闲运</div>
+                                <div class="market-price">原价：358.00 折扣：2.8</div>
+                                <div class="buy"><em>99.00</em>元<a href="">抢购</a></div>
+                            </li>
+                            <li>
+                                <div class="pic"><a href=""><img src="images/5192975002070.JPG_fix_180x180.jpg" alt=""></a></div>
+                                <div class="name">贝踏网布面透气休闲鞋轻便低帮运</div>
+                                <div class="market-price">原价：358.00 折扣：2.8</div>
+                                <div class="buy"><em>99.00</em>元<a href="">抢购</a></div>
+                            </li>
+                            <li>
+                                <div class="pic"><a href=""><img src="images/5200842654307.jpg_fix_180x180.jpg" alt=""></a></div>
+                                <div class="name">贝踏 新款情侣款男女休闲板鞋低</div>
+                                <div class="market-price">原价：288.00 折扣：3.4</div>
+                                <div class="buy"><em>99.00</em>元<a href="">抢购</a></div>
+                            </li>
+                            <li>
+                                <div class="pic"><a href=""><img src="images/5322678905587.jpg_fix_180x180.jpg" alt=""></a></div>
+                                <div class="name">贝踏 夏季男鞋时尚休闲牛仔透气</div>
+                                <div class="market-price">原价：288.00 折扣：3.4</div>
+                                <div class="buy"><em>79.00</em>元<a href="">抢购</a></div>
+                            </li>
+                        </ul>
+                        </div>
+                        <div class="active">
+                            <ul class="list-1">
+                                <li>
+                                    <div class="timer" id="timer">剩余 <em></em> 小时 <em></em> 分 <em></em> 秒</div>
+                                    <div class="pic">
+                                        <div class="streight">直降<br/><em>190</em><sup>元</sup></div>
+                                        <a href="" class="pht"><img src="images/6190073676026.jpg_fix_160x160.jpg" alt=""></a>
+                                    </div>
+                                    <div class="name">皮皮诺 男款低帮素面帆布鞋 <em>G1-1PR/D1 TXF DM</em></div>
+                                    <div class="price">抢购价：<em>￥19.00</em></div>
+                                </li>
+                                <li>
+                                    <div class="timer2">剩余 <em></em> 小时 <em></em> 分 <em></em> 秒</div>
+                                    <div class="pic">
+                                        <div class="streight">直降<br/><em>210</em><sup>元</sup></div>
+                                        <a href="" class="pht"><img src="images/20158063216552.jpg_fix_160x160.jpg" alt=""></a>
+                                    </div>
+                                    <div class="name">VOIT沃特真品百搭女子春夏新款耐磨运动休闲板鞋 <em>13226</em></div>
+                                    <div class="price">抢购价：<em>￥39.00</em></div>
+                                </li>
+                                <li>
+                                    <div class="timer3">剩余 <em></em> 小时 <em></em> 分 <em></em> 秒</div>
+                                    <div class="pic">
+                                        <div class="streight">直降<br/><em>160</em><sup>元</sup></div>
+                                        <a href="" class="pht"><img src="images/20156348066625.jpg_fix_160x160.jpg" alt=""></a>
+                                    </div>
+                                    <div class="name">FLYKE飞克专柜真品特价男子潮流时尚运动休闲板鞋<em>09111</em></div>
+                                    <div class="price">抢购价：<em>￥19.00</em></div>
+                                </li>
+                                <li>
+                                    <div class="timer4">剩余 <em></em> 小时 <em></em> 分 <em></em> 秒</div>
+                                    <div class="pic">
+                                        <div class="streight">直降<br/><em>100</em><sup>元</sup></div>
+                                        <a href="" class="pht"><img src="images/14953673599148.jpg_fix_180x180.jpg" alt=""></a>
+                                    </div>
+                                    <div class="name">【清仓】FLYKE飞克专柜真品特价女子户外时尚帆布休闲</div>
+                                    <div class="price">抢购价：<em>￥19.00</em></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="active">
+                            <ul class="list-2">
+                                <li>
+                                    <div class="pic"><a href=""><img src="images/5311905313586.jpg_fix_180x180.jpg" alt=""></a></div>
+                                    <div class="name">贝踏男鞋春夏跑步鞋男轻便休闲运</div>
+                                    <div class="market-price">原价：358.00 折扣：2.8</div>
+                                    <div class="buy"><em>99.00</em>元<a href="">抢购</a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href=""><img src="images/5192975002070.JPG_fix_180x180.jpg" alt=""></a></div>
+                                    <div class="name">贝踏网布面透气休闲鞋轻便低帮运</div>
+                                    <div class="market-price">原价：358.00 折扣：2.8</div>
+                                    <div class="buy"><em>99.00</em>元<a href="">抢购</a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href=""><img src="images/5200842654307.jpg_fix_180x180.jpg" alt=""></a></div>
+                                    <div class="name">贝踏 新款情侣款男女休闲板鞋低</div>
+                                    <div class="market-price">原价：288.00 折扣：3.4</div>
+                                    <div class="buy"><em>99.00</em>元<a href="">抢购</a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href=""><img src="images/5322678905587.jpg_fix_180x180.jpg" alt=""></a></div>
+                                    <div class="name">贝踏 夏季男鞋时尚休闲牛仔透气</div>
+                                    <div class="market-price">原价：288.00 折扣：3.4</div>
+                                    <div class="buy"><em>79.00</em>元<a href="">抢购</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gradlast">
+            <div class="affiche">
+                <div class="hd"><em>淘鞋公告</em><a href="">更多></a></div>
+                <div class="bd">
+                    <ul>
+                        <li><a href="">[公告]热烈欢迎艾弗森品牌入驻淘鞋网</a></li>
+                        <li><a href="">[公告]淘鞋网严正声明</a></li>
+                        <li><a href="">[促销]全系列秋款盘点，2折起</a></li>
+                        <li><a href="">[公告]感念师恩，教师节淘鞋网感谢恩</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ads"><a href=""><img src="images/6171443282143.jpg" alt=""></a></div>
+        </div>
+    </div>
+    <div class="floor f1">
+        <div class="floor-hd">
+            <div class="cat"><em>1F</em>运动馆</div>
+            <div class="cat-link"><a href="">网面透气鞋</a> | <a href="">板鞋</a> | <a href="">篮球鞋</a> | <a href="">足球鞋</a> | <a href="">网球鞋</a> | <a href="">综训鞋</a> | <a
+                href="">运动休闲鞋</a> | <a href="">帆布鞋</a> | <a href="">特卖会</a></div>
+            <div class="hots">热销排行 TOP7</div>
+        </div>
+        <div class="floor-bd">
+            <div class="attrs">
+                <ul>
+                    <li><a href=""><img src="images/nike.png" alt=""></a></li>
+                    <li><a href=""><img src="images/adidas.png" alt=""></a></li>
+                    <li><a href=""><img src="images/newbalance.png" alt=""></a></li>
+                    <li><a href=""><img src="images/qiaodan.png" alt=""></a></li>
+                    <li><a href=""><img src="images/xtep.png" alt=""></a></li>
+                    <li><a href=""><img src="images/361.png" alt=""></a></li>
+                    <li><a href=""><img src="images/lining.png" alt=""></a></li>
+                    <li><a href=""><img src="images/flyke.png" alt=""></a></li>
+                    <li><a href=""><img src="images/voit.png" alt=""></a></li>
+                    <li><a href=""><img src="images/iverson.png" alt=""></a></li>
+                    <li><a href=""><img src="images/converse.png" alt=""></a></li>
+                    <li><a href=""><img src="images/piipiinoo.png" alt=""></a></li>
+                    <li><a href=""><img src="images/camel.png" alt=""></a></li>
+                    <li><a href=""><img src="images/mizuno.png" alt=""></a></li>
+                </ul>
+                <ul>
+                    <li><a href="">35</a></li>
+                    <li><a href="">36</a></li>
+                    <li><a href="">37</a></li>
+                    <li><a href="">38</a></li>
+                    <li><a href="">39</a></li>
+                    <li><a href="">40</a></li>
+                    <li><a href="">41</a></li>
+                    <li><a href="">42</a></li>
+                    <li><a href="">43</a></li>
+                    <li><a href="">44</a></li>
+                    <li><a href="">45</a></li>
+                    <li><a href="">46</a></li>
+                </ul>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="floor-main">
+                <ul>
+                    <li><a href=""><img src="images/12156295786758.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/121300425122.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/123406982059.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/5207040658209.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/119911359866.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/5207255654166.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/12155564217554.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/12155884841812.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/5207517994340.jpg" alt=""></a></li>
+                </ul>
+                <ul>
+                    <li><a href=""><img src="images/144700423139.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/125816516980.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="rankbox">
+                <ul class="rank">
+                    <li><em>1</em><span class="pto"><img src="images/p1.jpg" alt=""></span><a href="">特步</a><span class="sales">已售 <i>410</i></span></li>
+                    <li><em>2</em><span class="pto"><img src="images/p2.jpg" alt=""></span><a href="">特步</a><span class="sales">已售 <i>392</i></span></li>
+                    <li><em>3</em><span class="pto"><img src="images/p3.jpg" alt=""></span><a href="">特步</a><span class="sales">已售 <i>392</i></span></li>
+                    <li><em>4</em><span class="pto"><img src="images/p4.jpg" alt=""></span><a href="">特步</a><span class="sales">已售 <i>392</i></span></li>
+                    <li><em>5</em><span class="pto"><img src="images/p5.jpg" alt=""></span><a href="">特步</a><span class="sales">已售 <i>290</i></span></li>
+                    <li><em>6</em><span class="pto"><img src="images/p6.jpg" alt=""></span><a href="">特步</a><span class="sales">已售 <i>284</i></span></li>
+                    <li><em>7</em><span class="pto"><img src="images/p7.jpg" alt=""></span><a href="">特步</a><span class="sales">已售 <i>281</i></span></li>
+                </ul>
+                <div class="more"><a href=""><img src="images/more.jpg" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="floor f2">
+        <div class="floor-hd">
+            <div class="cat"><em>2F</em>女鞋馆</div>
+            <div class="cat-link"><a href="">凉鞋上新</a> | <a href="">春夏单鞋</a> | <a href="">凉拖鞋</a> | <a href="">曼萨尼莎</a> | <a href="">百丽</a> | <a href="">热风</a> | <a href="">达芙妮</a> | <a
+                    href="">卓诗尼</a> | <a href="">女靴清仓</a></div>
+            <div class="hots">热销排行 TOP7</div>
+        </div>
+        <div class="floor-bd">
+            <div class="attrs crl">
+                <ul>
+                    <li><a href=""><img src="images/daphne.png" alt=""></a></li>
+                    <li><a href=""><img src="images/josiny.png" alt=""></a></li>
+                    <li><a href=""><img src="images/hotwind.png" alt=""></a></li>
+                    <li><a href=""><img src="images/dusto.png" alt=""></a></li>
+                    <li><a href=""><img src="images/comely.png" alt=""></a></li>
+                    <li><a href=""><img src="images/lesaunda.png" alt=""></a></li>
+                    <li><a href=""><img src="images/st-sat.png" alt=""></a></li>
+                    <li><a href=""><img src="images/kadina.png" alt=""></a></li>
+                    <li><a href=""><img src="images/harson.png" alt=""></a></li>
+                    <li><a href=""><img src="images/shoebox.png" alt=""></a></li>
+                    <li><a href=""><img src="images/qingwantian.png" alt=""></a></li>
+                    <li><a href=""><img src="images/manzanitasol.png" alt=""></a></li>
+                    <li><a href=""><img src="images/pony.png" alt=""></a></li>
+                    <li><a href=""><img src="images/taomeixie.png" alt=""></a></li>
+                </ul>
+                <ul class="crls">
+                    <li><a href="">34</a></li>
+                    <li><a href="">35</a></li>
+                    <li><a href="">36</a></li>
+                    <li><a href="">37</a></li>
+                    <li><a href="">38</a></li>
+                    <li><a href="">39</a></li>
+                </ul>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="floor-main">
+                <ul class="prod1">
+                    <li><a href=""><img src="images/pw1.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw2.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw3.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw4.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw5.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw6.jpg" alt=""></a></li>
+                </ul>
+                <ul class="prod2">
+                    <li><a href=""><img src="images/pw7.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw8.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw10.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw9.jpg" alt="" width="334"></a></li>
+                    <li><a href=""><img src="images/pw11.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw12.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw13.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw14.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="rankbox">
+                <ul class="rank">
+                    <li><em>1</em><span class="pto"><img src="images/t1.jpg" alt=""></span><a href="">蓓尔</a><span class="sales s1">已售 <i>0</i></span></li>
+                    <li><em>2</em><span class="pto"><img src="images/t2.jpg" alt=""></span><a href="">蓓尔</a><span class="sales s1">已售 <i>0</i></span></li>
+                </ul>
+                <div class="more"><a href=""><img src="images/t3.jpg" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="floor f3">
+        <div class="floor-hd">
+            <div class="cat"><em>3F</em>女鞋馆</div>
+            <div class="cat-link"><a href="">凉鞋上新</a> | <a href="">春夏单鞋</a> | <a href="">凉拖鞋</a> | <a href="">曼萨尼莎</a> | <a href="">百丽</a> | <a href="">热风</a> | <a href="">达芙妮</a> | <a
+                    href="">卓诗尼</a> | <a href="">女靴清仓</a></div>
+            <div class="hots">热销排行 TOP7</div>
+        </div>
+        <div class="floor-bd">
+            <div class="attrs crl">
+                <ul>
+                    <li><a href=""><img src="images/daphne.png" alt=""></a></li>
+                    <li><a href=""><img src="images/josiny.png" alt=""></a></li>
+                    <li><a href=""><img src="images/hotwind.png" alt=""></a></li>
+                    <li><a href=""><img src="images/dusto.png" alt=""></a></li>
+                    <li><a href=""><img src="images/comely.png" alt=""></a></li>
+                    <li><a href=""><img src="images/lesaunda.png" alt=""></a></li>
+                    <li><a href=""><img src="images/st-sat.png" alt=""></a></li>
+                    <li><a href=""><img src="images/kadina.png" alt=""></a></li>
+                    <li><a href=""><img src="images/harson.png" alt=""></a></li>
+                    <li><a href=""><img src="images/shoebox.png" alt=""></a></li>
+                    <li><a href=""><img src="images/qingwantian.png" alt=""></a></li>
+                    <li><a href=""><img src="images/manzanitasol.png" alt=""></a></li>
+                    <li><a href=""><img src="images/pony.png" alt=""></a></li>
+                    <li><a href=""><img src="images/taomeixie.png" alt=""></a></li>
+                </ul>
+                <ul class="crls">
+                    <li><a href="">34</a></li>
+                    <li><a href="">35</a></li>
+                    <li><a href="">36</a></li>
+                    <li><a href="">37</a></li>
+                    <li><a href="">38</a></li>
+                    <li><a href="">39</a></li>
+                </ul>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="floor-main">
+                <ul class="prod1">
+                    <li><a href=""><img src="images/pw1.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw2.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw3.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw4.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw5.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw6.jpg" alt=""></a></li>
+                </ul>
+                <ul class="prod2">
+                    <li><a href=""><img src="images/pw7.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw8.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw10.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw9.jpg" alt="" width="334"></a></li>
+                    <li><a href=""><img src="images/pw11.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw12.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw13.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw14.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="rankbox">
+                <ul class="rank">
+                    <li><em>1</em><span class="pto"><img src="images/t1.jpg" alt=""></span><a href="">蓓尔</a><span class="sales s1">已售 <i>0</i></span></li>
+                    <li><em>2</em><span class="pto"><img src="images/t2.jpg" alt=""></span><a href="">蓓尔</a><span class="sales s1">已售 <i>0</i></span></li>
+                </ul>
+                <div class="more"><a href=""><img src="images/t3.jpg" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="floor f4">
+        <div class="floor-hd">
+            <div class="cat"><em>4F</em>女鞋馆</div>
+            <div class="cat-link"><a href="">凉鞋上新</a> | <a href="">春夏单鞋</a> | <a href="">凉拖鞋</a> | <a href="">曼萨尼莎</a> | <a href="">百丽</a> | <a href="">热风</a> | <a href="">达芙妮</a> | <a
+                    href="">卓诗尼</a> | <a href="">女靴清仓</a></div>
+            <div class="hots">热销排行 TOP7</div>
+        </div>
+        <div class="floor-bd">
+            <div class="attrs crl">
+                <ul>
+                    <li><a href=""><img src="images/daphne.png" alt=""></a></li>
+                    <li><a href=""><img src="images/josiny.png" alt=""></a></li>
+                    <li><a href=""><img src="images/hotwind.png" alt=""></a></li>
+                    <li><a href=""><img src="images/dusto.png" alt=""></a></li>
+                    <li><a href=""><img src="images/comely.png" alt=""></a></li>
+                    <li><a href=""><img src="images/lesaunda.png" alt=""></a></li>
+                    <li><a href=""><img src="images/st-sat.png" alt=""></a></li>
+                    <li><a href=""><img src="images/kadina.png" alt=""></a></li>
+                    <li><a href=""><img src="images/harson.png" alt=""></a></li>
+                    <li><a href=""><img src="images/shoebox.png" alt=""></a></li>
+                    <li><a href=""><img src="images/qingwantian.png" alt=""></a></li>
+                    <li><a href=""><img src="images/manzanitasol.png" alt=""></a></li>
+                    <li><a href=""><img src="images/pony.png" alt=""></a></li>
+                    <li><a href=""><img src="images/taomeixie.png" alt=""></a></li>
+                </ul>
+                <ul class="crls">
+                    <li><a href="">34</a></li>
+                    <li><a href="">35</a></li>
+                    <li><a href="">36</a></li>
+                    <li><a href="">37</a></li>
+                    <li><a href="">38</a></li>
+                    <li><a href="">39</a></li>
+                </ul>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="floor-main">
+                <ul class="prod1">
+                    <li><a href=""><img src="images/pw1.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw2.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw3.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw4.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw5.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw6.jpg" alt=""></a></li>
+                </ul>
+                <ul class="prod2">
+                    <li><a href=""><img src="images/pw7.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw8.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw10.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw9.jpg" alt="" width="334"></a></li>
+                    <li><a href=""><img src="images/pw11.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw12.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw13.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw14.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="rankbox">
+                <ul class="rank">
+                    <li><em>1</em><span class="pto"><img src="images/t1.jpg" alt=""></span><a href="">蓓尔</a><span class="sales s1">已售 <i>0</i></span></li>
+                    <li><em>2</em><span class="pto"><img src="images/t2.jpg" alt=""></span><a href="">蓓尔</a><span class="sales s1">已售 <i>0</i></span></li>
+                </ul>
+                <div class="more"><a href=""><img src="images/t3.jpg" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="floor f5">
+        <div class="floor-hd">
+            <div class="cat"><em>5F</em>女鞋馆</div>
+            <div class="cat-link"><a href="">凉鞋上新</a> | <a href="">春夏单鞋</a> | <a href="">凉拖鞋</a> | <a href="">曼萨尼莎</a> | <a href="">百丽</a> | <a href="">热风</a> | <a href="">达芙妮</a> | <a
+                    href="">卓诗尼</a> | <a href="">女靴清仓</a></div>
+            <div class="hots">热销排行 TOP7</div>
+        </div>
+        <div class="floor-bd">
+            <div class="attrs crl">
+                <ul>
+                    <li><a href=""><img src="images/daphne.png" alt=""></a></li>
+                    <li><a href=""><img src="images/josiny.png" alt=""></a></li>
+                    <li><a href=""><img src="images/hotwind.png" alt=""></a></li>
+                    <li><a href=""><img src="images/dusto.png" alt=""></a></li>
+                    <li><a href=""><img src="images/comely.png" alt=""></a></li>
+                    <li><a href=""><img src="images/lesaunda.png" alt=""></a></li>
+                    <li><a href=""><img src="images/st-sat.png" alt=""></a></li>
+                    <li><a href=""><img src="images/kadina.png" alt=""></a></li>
+                    <li><a href=""><img src="images/harson.png" alt=""></a></li>
+                    <li><a href=""><img src="images/shoebox.png" alt=""></a></li>
+                    <li><a href=""><img src="images/qingwantian.png" alt=""></a></li>
+                    <li><a href=""><img src="images/manzanitasol.png" alt=""></a></li>
+                    <li><a href=""><img src="images/pony.png" alt=""></a></li>
+                    <li><a href=""><img src="images/taomeixie.png" alt=""></a></li>
+                </ul>
+                <ul class="crls">
+                    <li><a href="">34</a></li>
+                    <li><a href="">35</a></li>
+                    <li><a href="">36</a></li>
+                    <li><a href="">37</a></li>
+                    <li><a href="">38</a></li>
+                    <li><a href="">39</a></li>
+                </ul>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="floor-main">
+                <ul class="prod1">
+                    <li><a href=""><img src="images/pw1.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw2.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw3.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw4.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw5.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw6.jpg" alt=""></a></li>
+                </ul>
+                <ul class="prod2">
+                    <li><a href=""><img src="images/pw7.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw8.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw10.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw9.jpg" alt="" width="334"></a></li>
+                    <li><a href=""><img src="images/pw11.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw12.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw13.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/pw14.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="rankbox">
+                <ul class="rank">
+                    <li><em>1</em><span class="pto"><img src="images/t1.jpg" alt=""></span><a href="">蓓尔</a><span class="sales s1">已售 <i>0</i></span></li>
+                    <li><em>2</em><span class="pto"><img src="images/t2.jpg" alt=""></span><a href="">蓓尔</a><span class="sales s1">已售 <i>0</i></span></li>
+                </ul>
+                <div class="more"><a href=""><img src="images/t3.jpg" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="help-skin">
+        <div class="help-box">
+            <div class="weibow">
+                <img src="images/weixin.gif" alt="">
+                <ul class="weibo-list">
+                    <li><a href="" class="sina">新浪微博</a></li>
+                    <li><a href="" class="ttweiboc">腾讯微博</a></li>
+                    <li><a href="" class="qqzone">QQ空间</a></li>
+                    <li><a href="" class="renren">人人网</a></li>
+                </ul>
+            </div>
+            <dl>
+                <dt>购物指南</dt>
+                <dd>
+                    <ul>
+                        <li><a href="">购买流程</a></li>
+                        <li><a href="">鞋币说明</a></li>
+                        <li><a href="">发票制度</a></li>
+                        <li><a href="">会员制度</a></li>
+                        <li><a href="">购物保障</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl>
+                <dt>购物指南</dt>
+                <dd>
+                    <ul>
+                        <li><a href="">购买流程</a></li>
+                        <li><a href="">鞋币说明</a></li>
+                        <li><a href="">发票制度</a></li>
+                        <li><a href="">会员制度</a></li>
+                        <li><a href="">购物保障</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl>
+                <dt>购物指南</dt>
+                <dd>
+                    <ul>
+                        <li><a href="">购买流程</a></li>
+                        <li><a href="">鞋币说明</a></li>
+                        <li><a href="">发票制度</a></li>
+                        <li><a href="">会员制度</a></li>
+                        <li><a href="">购物保障</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl>
+                <dt>购物指南</dt>
+                <dd>
+                    <ul>
+                        <li><a href="">购买流程</a></li>
+                        <li><a href="">鞋币说明</a></li>
+                        <li><a href="">发票制度</a></li>
+                        <li><a href="">会员制度</a></li>
+                        <li><a href="">购物保障</a></li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="footer-skin">
+        <div class="promises">
+            <ul>
+                <li class="first"><em class="zp">正品保障</em></li>
+                <li><em class="th">自由退换</em></li>
+                <li><em class="by">全场包邮</em></li>
+                <li><em class="fk">货到付款</em></li>
+                <li><a href=""><em class="rz">商家入驻</em></a></li>
+            </ul>
+        </div>
+        <div class="footer-menu">
+            <a href="">公司简介</a> |
+            &nbsp;<a href="">本站动态</a> |
+            &nbsp;<a href="">人才招聘</a> |
+            &nbsp;<a href="">品牌合作</a> |
+            &nbsp;<a href="">淘鞋资讯</a> |
+            &nbsp;<a href="">友情链接</a> |
+            &nbsp;<a href="">全部分类</a> |
+            &nbsp;<a href="">网站地图</a> |
+            &nbsp;<a href="">联系我们</a>
+        </div>
+        <dl class="friend-link">
+            <dt>友情链接</dt>
+            <dd>
+                <i class="coll"></i>
+                <a href="">买鞋子哪个网站好</a> | <a href="">乐淘</a> | <a href="">易购网</a> | <a href="">美料</a> | <a href="">优惠网</a> | <a href="">优购物官网</a> | <a
+                    href="">慧聪网</a> | <a href="">搜了网</a> | <a href="">团购网</a> | <a href="">悦美网</a> | <a href="">淘金网</a> | <a
+                    href="">厦门特产</a> | <a href="">卷皮玩</a> |
+            </dd>
+        </dl>
+        <div class="copyright"><a href="">闽ICP备08104411号</a> Copyright® 2008-2015 Taoxie.com, All Rights Reserved
+            <br>淘鞋(厦门)网络科技有限公司 版权所有
+        </div>
+        <div class="cert">
+            <span class="ft1"></span>
+            <span class="ft2"></span>
+            <a href="" class="ft3" ></a>
+            <span class="ft4"></span>
+            <a href="" class="ft5"></a>
+            <span class="ft6"></span>
+            <span class="ft7"></span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

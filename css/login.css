@@ -1,0 +1,19 @@
+.body-skin{width:100%;height:461px;background:#f9f9f9;}
+.body-main{width:950px;padding:50px 0;margin:auto;}
+.main-left{padding:50px 0 0 50px;float:left;}
+.main-right{float:right;width:378px;height:359px;border: 1px solid #d8d8d8;box-shadow: 0 3px 3px #ddd;background:#fff;}
+.hd{line-height:20px;font-size:14px;font-weight:bold;padding:10px 20px 5px;background:url(../images/line.gif) center bottom no-repeat;}
+.bd{padding:20px;}
+.filed{width:338px;height:27px;clear:both;margin-bottom:15px;}
+.name{float:left;width:48px;line-height:24px;color:#666;}
+.input{float:left;width:276px;height:27px;}
+.input input{width:269px;height:25px;border:1px solid #ccc;background:#f7f7f7;}
+.submit{float:left;width:146px;height:30px;background:url(../images/submit.gif);border:none;margin-left:48px;cursor:pointer;}
+.link{text-decoration:underline;color:#f60;display:block;float:left;line-height:28px;margin-left:12px;}
+.link-j{text-decoration:underline;color:#f60;}
+.regi{padding-left:48px;margin-bottom: 5px;line-height: 22px;}
+.part{padding-left:48px;width:280px;}
+.partner{padding-top:10px;border-top:1px dotted #d8d8d8;line-height: 15px;margin-bottom: 4px;}
+.part>a{display:block;float:left;margin:2px 3px 2px 0;}
+
+
